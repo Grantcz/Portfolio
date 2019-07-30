@@ -1,0 +1,198 @@
+/* NORMALIZATION  */
+*{
+	text-decoration: none;
+}
+body{
+	display: inline;
+	font-size: 1rem;
+	font-family: nazare, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+	color: #FAEBD7;
+	background: conic-gradient(#000033,#000066);
+	scroll-behavior: smooth;
+}
+p{
+	margin-bottom: 0;
+}
+a{
+	color: #FAEBD7;
+	text-decoration: underline;
+}
+a:hover{
+	color: #FAEBD7;
+	text-decoration: underline;
+}
+ul li{
+	list-style-type: none;
+}
+
+/* BACKGROUND */
+.svg {
+	width: 100%;
+    height: 100%;
+    max-width: 100%;
+	max-height: 100%;
+	position: fixed;
+    display: inline-block;
+	vertical-align: middle;
+	z-index: -1;
+}
+
+/* NAVIGATION */
+a#tw{
+	font-family: nazare, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	padding: 5px;
+	padding-top: 10px;
+	margin-right: 10px;
+	position: fixed;
+	float: right;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	text-decoration: none;
+	text-shadow:2px 0px #990000;
+}
+a#li{
+	font-family: nazare, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	bottom: 0;
+	padding: 5px;
+	padding-bottom: 10px;
+	position: fixed;
+	float: left;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	text-decoration: none;
+	text-shadow: -2px 0px #990000;
+}
+a#gh{
+	font-family: nazare, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	bottom: 0;
+	padding: 5px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	position: fixed;
+	float: right;
+	vertical-align: text-bottom;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	text-decoration: none;
+	text-shadow: 2px 0px #990000;
+}
+/* CONTENT */
+div#content {
+ max-width: 80%;
+}
+p#section{
+	padding-top: 2.5vh;
+	padding-bottom: 5vh;
+	text-decoration: underline;
+	text-shadow: 0px 1px #990000;
+}
+div#intro{
+	padding-top: 42vw;
+	padding-bottom: 21vw;
+}
+p#focus{
+	font-weight: 700;
+	font-style: normal;
+	font-size: 150%;
+	text-align: center;
+	text-shadow: 0px 2px #990000;
+}
+p#head{
+	font-weight: 700;
+	font-style: normal;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 0px 2px #990000;
+}
+p#sub{
+	text-align: center;
+}
+div#work, div#skills{
+	padding-bottom: 10.5vw;
+}
+div#job, div#side, div#design, div#dev{
+	padding-bottom: 5.25vw;
+	display: block;
+}
+#job p, #design p, #contact p{
+	text-align: left;
+}
+#side p, #dev p{
+	text-align: right;
+}
+div#contact{
+	text-shadow: 0px 2px #990000;
+	padding-bottom: 5.25vw;
+	font-weight: 500;
+	font-size: 150%;
+}
+div#footer p{
+	padding-top: 75px;
+	font-size: 25%;
+}
+/* BREAKPOINTS */
+@media only screen and (min-width: 320px) and (max-width: 479px){
+	p#section{
+		padding-bottom: 2vh;
+	}
+	div#job, div#side, div#dood, div#design, div#dev, div#other{
+		padding-bottom: 100px;
+		align-content: center;
+	}
+	div#job p, div#side p, div#dood p, div#design p, div#dev p, div#other p, #contact p{
+		text-align: center;
+	}
+	div#contact{
+		font-size: 125%;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	div#job, div#side, div#dood, div#design, div#dev, div#other{
+		padding-bottom: 75px;
+		align-content: center;
+	}
+	div#job p, div#side p, div#dood p, div#design p, div#dev p, div#other p, #contact p{
+		text-align: center;
+	}
+	div#contact{
+		font-size: 125%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+@media only screen and (min-width: 992px){
+	body{
+		font-size: 1.25rem;
+	}
+	p#focus{
+		text-align: right;
+		padding-right: 50%;
+	}
+	p#section{
+		visibility: hidden;
+	}
+}
+@media only screen and (min-width: 1200px){
+	body{
+		font-size: 1.50rem;
+	}
+	p#focus{
+		text-align: right;
+		padding-right: 50%;
+	}
+	p#section{
+		visibility: hidden;
+	}
+}
